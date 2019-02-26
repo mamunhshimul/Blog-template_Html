@@ -1,3 +1,19 @@
-.container{
-	color:black;
-}
+ #header-area{
+
+ .navbar{
+ 	height:70px;
+ }
+ .logo h1{
+  font-size: 25px;
+ }
+ span{
+ 	color: red;
+ 	font-weight: bolder;
+ }
+ .navbar-nav{
+ 	a{
+ 		color: $fontColor;
+ 		font-weight: bold;
+ 	}
+ }
+ }

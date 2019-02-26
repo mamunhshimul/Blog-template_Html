@@ -1,3 +1,37 @@
+$fontColor:#263843;
+$grayColor:#C1C4C6;
+
+
 /*--------------------------------------------
   -                reset_code                -
   --------------------------------------------*/  
+*{
+	margin:0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding:0;
+	color: $fontColor;
+}
+a,a:hover{
+	color: black;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+#pray_btn{
+	font-size: 13px;
+	font-weight: bold;
+	padding:5px 12px;
+	background: $fontColor;
+	color: #fff;
+	border-radius: 20px;
+
+}
+
+
+@import '_header.scss';
+@import '_slide.scss';
+@import '_about.scss';

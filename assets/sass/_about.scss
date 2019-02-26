@@ -1,0 +1,106 @@
+/*--------------------------------------------
+  -                about_css                -
+  --------------------------------------------*/
+  #about-area{
+    margin-top: 2%;
+
+  	.about-left-bg{
+  		height: 400px;
+  		overflow: hidden;
+  		img{
+  			width: 100%;
+  		}
+  	}
+  	.about-left-content{
+  		h3{
+  			margin:3% 25% 1% 25%;
+        font-size: 20px;
+ 
+
+  		}
+  		h4{
+  			font-size: 13px;
+  			margin:2% 0 3% 0;
+
+  		}
+  		span{
+  			color: $grayColor;
+  		}
+  		p{
+  			margin: 2% 5%;
+        font-weight: bold;
+        font-size: 14px;
+  		}
+  	}
+  	.about-right-content{
+
+      border: 1px solid $grayColor;
+      width: 90%;
+      height: 300px;
+      float: right;
+      position: relative;
+
+      h3{
+        position: absolute;
+        background: #fff;
+
+        left: 30%;
+        top: -6%;
+        padding:0 20px;
+    
+      }
+  		.about-right-bg{
+         
+        margin:10% 0 0 0;   
+  			height:150px;
+  			overflow: hidden; 
+
+  			img{
+  				width: 80%;
+  			}
+  		}
+      p{
+        margin:5% 15%;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      a{
+        border-bottom: 1px solid $grayColor;
+         font-weight: bold;
+         font-size: 15px;
+         margin: 0 0 10px 0;
+      }
+  	}
+
+  }
+ .about-right-category{
+      margin: 10% 0;
+      border: 1px solid $grayColor;
+      width: 90%;
+      height: 300px;
+      float: right;
+      position: relative;
+      text-align: left;
+   
+   h3{
+        position: absolute;
+        background: #fff;
+        left: 25%;
+        top: -6%;
+        padding:0 20px;
+        
+   }
+ 
+   p{
+     margin: 10% 12%;
+   }
+   p:hover{
+    color: $grayColor;
+   }
+   span{
+    margin-left:20%;
+    float: right;
+    color: $grayColor;
+   }
+   
+  }
