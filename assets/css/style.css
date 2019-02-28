@@ -71,6 +71,61 @@ ul {
   color: #263843;
   font-weight: bold;
 }
+#header-area .social-icon {
+  position: relative;
+}
+#header-area .social-icon a i {
+  font-size: 1em;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  background: #353B48;
+}
+#header-area .social-icon .search_Bar {
+  position: fixed;
+  top: 2.3%;
+  right: 14.5%;
+}
+#header-area .social-icon .searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  background-color: #353b48;
+  border-radius: 30px;
+}
+#header-area .social-icon .search_input {
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+#header-area .social-icon .searchbar:hover > .search_input {
+  padding-left: 20px;
+  width: 200px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+#header-area .social-icon .searchbar:hover > .search_icon {
+  color: #e74c3c;
+}
+#header-area .social-icon .search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
 
 #slider-area {
   height: 45vh;
@@ -89,6 +144,7 @@ ul {
   color: #fff;
   font-size: 35px;
   font-weight: bold;
+  text-shadow: 2px 2px 5px black;
 }
 
 .widget-hadding h3 {
@@ -112,6 +168,10 @@ ul {
   width: 35%;
   right: 9%;
   margin: 1.1% 0 0 0;
+}
+.widget-hadding .carousel-control-prev .carousel-control-prev-icon {
+  color: red;
+  margin-top: 100px;
 }
 
 .slider-single-widget {
