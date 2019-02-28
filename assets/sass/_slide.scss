@@ -10,9 +10,13 @@
  }
   .slider_text{
  	position: absolute;
- 	top: 15%;
- 	left: 30%;
- 	font-size: 30px;
+ 	top: 20%;
+ 
+ 	margin: 0 20%;
+ 	color: #fff;
+ 	font-size: 35px;
+ 	font-weight: bold;
+
  }
  
  #slider-widgets{}
@@ -50,7 +54,7 @@
     margin-bottom: 10%;
     
   	h6{
-      background: $fontColor;
+      background: $grayColor;
       color: #fff;
       padding: 2px 10px;
       margin: 7% 0 2% 0;
@@ -64,7 +68,7 @@
   }
   .slider-single-widget-bg{
        
-       height: 200px;
+       height: 230px;
        overflow: hidden;
      img{
        width: 100%;

@@ -1,5 +1,6 @@
  #header-area{
-
+  
+ 
  .navbar{
  	height:70px;
  }
@@ -10,10 +11,40 @@
  	color: red;
  	font-weight: bolder;
  }
- .navbar-nav{
+ #navigation{
+    margin: 0;
+    padding: 0;
+
+   li{
+   	display: block;
+   }
+ 	li ul{
+
+	visibility : hidden;
+	position   : absolute;
+	display    : none;
+	margin-left: 1%;
+   
+ 	}
+ 	li:hover > ul,
+ 	ul li ul:hover {
+     display: block;
+     visibility: visible;
+ 	}
+ 	li ul li{
+ 		clear: both;
+ 		width: 100%;
+
+ 		a{
+ 			color: $fontColor;
+ 			font-weight: bold;
+ 			background: black;
+ 		}
+ 	}
  	a{
- 		color: $fontColor;
+ 		 color: $fontColor;
  		font-weight: bold;
  	}
  }
+ 
  }
