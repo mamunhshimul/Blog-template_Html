@@ -3,85 +3,91 @@
   --------------------------------------------*/  
    
 #blog-area{
+  margin-top: 3%;
 
 	.blog-hadding{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    height: 30px;
     .blog-hadding-left{
       p{
-        font-size: 20px;
+        font-size: 16px;
         display: inline-block;
         float: left;
+        margin-left: 10px;
       }
       span{
+         color: $grayColor;
+      }
+    }
+    .blog-hadding-right{
+      float: right;
+      margin-right: 10px;
 
+      a i{
+        padding:0 8px;
+        font-size: 1em;
       }
     }
   }
-	.single-blog-post{      
-
-		width: 48%;
-		display: inline-block;
-		margin: 3% 0;
-       .single-blog-post-bg{
-            
-       	img{
-       		width: 100%;
-       		 
-       	}
-       }
-       h3{
-       	font-size: 18px;
-       	margin:5% 0 2% 0;
-       }
-       p:nth-of-type(1){
-      
-       	 font-size: 13px;
- 
-       }
-       span{
-       	color: $grayColor;
-       }
-       p:nth-of-type(2){
-         font-size: 14px;
-         font-weight: bold; 
-         margin: 2.5% 10%; 
-
-       }
-       .small_gg{
-       	  height: 235px;
-       	  overflow: hidden;
-       }
-
-       .leargGG{
+  .blog-post-S{
+    margin-top: 5%;
+  }
+  .single-blog-post:last-chlid{
+   background: red;
+  }
+  .blog-hadding-right{}
+	.single-blog-post{   
     
+    float:right;
+    width: 48%;
+    margin: 5% 1%; 
+    display: inline-block;
+
+
+       h3{
+        font-size: 18px;
+        margin:2% 15%;
+      }
+      span:nth-of-type(1){
+        color: $grayColor;
+      }
+      p:nth-of-type(1){
+     
+      }
+      p{
+        margin:2% 10%;
+        font-size: 13px;
+        font-weight: bold;
+      }
+    .single-blog-post-bg{
+      img{
+        width: 100%;
+      }
+    }
+    .leargGG{
+      height: 350px; 
+      overflow: hidden;
+    }
+    .smallgGG{
+      height: 230px; 
+      overflow: hidden;
+    }
+    .float_l{
+      
+    }
+    .float_r{
+      
+    }
  
-       	overflow: hidden;
-       	height: 320px;
-
-       	img{
-            
-       		
-       	}
-       }
 	}
-	.blog-bTn{
-		padding-top: 10%;
-
-	 a{
-        font-size: 15px;
-        border: 1px solid black;
-        padding:7px 40px;
-         margin-top: 20%;
-         font-weight: bold;
-	 }	
-	}
-	.float_l{
-		float: right;
-	}
-	.float_r{
-		float: left;
-	}
+  .gar_suja{
+    margin-top:38px;
+  }
+  .gar_tera{
+    margin: -435px 0 0 0;
+  }
+ 
 
 .latest-blog-post{
 
@@ -206,5 +212,13 @@
 }
  
   
-  
+.blog-bTn a{
+   background: $fontColor;
+   padding: 10px 40px; 
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 20px;
+   color: #fff; 
+} 
+
 }
